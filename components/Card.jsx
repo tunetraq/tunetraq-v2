@@ -1,4 +1,4 @@
-import Image from 'next/image';
+// import Image from 'next/image';
 import { useRouter } from 'next/router';
 import ReactShowMoreText from 'react-show-more-text';
 
@@ -26,7 +26,7 @@ function Card() {
             </div>
             {/* card thumbnail */}
             <div className="relative">
-                <Image onClick={() => router.push('/play')} className="object-cover mx-4 cursor-pointer"  src="/assets/thumb1.jpg" width={900} height={500} />
+                <img onClick={() => router.push('/play')} className="object-contain mb-1 cursor-pointer"  src="/assets/thumb1.jpg" width="100%" />
                 <div className="absolute bottom-3 right-3 bg-gray-500 px-2 py-1 cursor-pointer text-white text-xs font-semibold rounded-md">
                     <div className="flex items-center justify-center space-x-1">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
@@ -140,7 +140,7 @@ function Card() {
             {/* card thumbnail */}
             <div>
                 <div className="relative">
-            <Image className="object-cover mx-4 cursor-pointer"  src="/assets/thumb3.jpg" width={900} height={500} />
+                <img onClick={() => router.push('/play')} className="object-contain mb-1 cursor-pointer"  src="/assets/thumb3.jpg" width="100%" />
             <div className="absolute bottom-3 right-3 bg-gray-500 px-2 py-1 cursor-pointer text-white text-xs font-semibold rounded-md">
                     <div className="flex items-center justify-center space-x-1">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">

@@ -1,4 +1,4 @@
-import Image from 'next/image';
+// import Image from 'next/image';
 
 function MiniProfile() {
 
@@ -20,7 +20,7 @@ function MiniProfile() {
                 <p className="text-xs pt-3">Sponsored:</p>
             </div>
             <div className="border bg-white shadow-sm">
-                <Image src="/assets/thumb2.jpg" height={400} width={700}/> 
+                <img src="/assets/thumb2.jpg" height={400} width={700}/> 
                 <div className="flex items-center p-2">
                     <img className="h-10 w-10 mr-2 object-cover" src="/assets/profile2.jpg" alt="advertiser logo" />
                     <div>
