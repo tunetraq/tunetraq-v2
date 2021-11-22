@@ -8,7 +8,8 @@ function MiniProfile() {
         <div className="sticky top-14">
             <div className="flex items-center p-2 border-b">
                 <div>
-                <img className="h-12 w-12 rounded-full object-cover border p-1 cursor-pointer" src="/assets/profile3.jpg" alt="profile picture"/>
+                {/* <img className="h-12 w-12 rounded-full object-cover border p-1 cursor-pointer" src="/assets/profile3.jpg" alt="profile picture"/> */}
+                <img className="h-14 w-14 rounded-full object-cover border p-1" src="/assets/profile1.jpg" alt="profile picture"/>
                 </div>
                 <div className="ml-2 flex-1">
                     <p className="font-bold text-xs text-gray-800 cursor-pointer line-clamp-1 capitalize">Jidraff Gathura</p>
