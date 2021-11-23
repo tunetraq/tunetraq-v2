@@ -1,8 +1,17 @@
 // import Image from 'next/image';
 
+import { useDispatch } from "react-redux";
+import { logout } from "../src/redux/actions/auth.action";
+
 function MiniProfile() {
 
     const YEAR = new Date().getFullYear(); 
+
+    const dispatch = useDispatch()
+
+    const handleLogout = () => {
+        dispatch(logout())
+    }
 
     return (
         <div className="sticky top-14">
@@ -15,7 +24,7 @@ function MiniProfile() {
                     <p className="font-bold text-xs text-gray-800 cursor-pointer line-clamp-1 capitalize">Jidraff Gathura</p>
                     <p className="text-xs text-gray-400 font-semibold cursor-pointer">Kenya</p>
                 </div>
-                <div className="cursor-pointer text-xs text-blue-500">Logout</div>
+                <div onClick={handleLogout} className="cursor-pointer text-xs text-blue-500">Logout</div>
             </div>
             <div>
                 <p className="text-xs pt-3">Sponsored:</p>
