@@ -131,7 +131,7 @@ function SponsoredProfile() {
                     <img className="h-12 w-19 mr-2 object-cover cursor-pointer" src="/assets/thumb3.jpg" alt="advertiser logo" />
                     <div className="cursor-pointer ">
                         <p className="text-xs font-bold  text-gray-800 line-clamp-2 capitalize hover:text-blue-500">Mama Amina ft Sho Madjozi (Official Music Video)</p>
-                        <p className="text-xs  text-gray-400 uppercase">Marioo</p>
+                        <p className="text-xs  text-gray-400 uppercase">Marioo.</p>
                     </div>
                 </div>
             </div>
