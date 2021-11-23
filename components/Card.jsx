@@ -129,7 +129,7 @@ function Card() {
                 </div>
                 <div className="ml-2 flex-1">
                     <p className="font-bold text-xs uppercase text-gray-800">otile brown &nbsp; <span className="lowercase font-light bg-yellow-400 text-white px-1">sponsored</span> </p>
-                    <p className="text-xs text-gray-400"><sup>c</sup>/<sub>o</sub> &nbsp;<span className="lowercase cursor-pointer text-blue-500">just in love music</span></p>
+                    <p className="text-xs text-gray-400"><sup>c</sup>/<sub>o</sub> &nbsp;<span className="cursor-pointer text-blue-500">Just in love music</span></p>
                 </div>
                 <div className="cursor-pointer">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">

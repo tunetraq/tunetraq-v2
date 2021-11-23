@@ -13,7 +13,7 @@ function MiniProfile() {
                 </div>
                 <div className="ml-2 flex-1">
                     <p className="font-bold text-xs text-gray-800 cursor-pointer line-clamp-1 capitalize">Jidraff Gathura</p>
-                    <p className="text-xs text-gray-400 font-semibold cursor-pointer">Fan account</p>
+                    <p className="text-xs text-gray-400 font-semibold cursor-pointer">Kenya</p>
                 </div>
                 <div className="cursor-pointer text-xs text-blue-500">Logout</div>
             </div>
